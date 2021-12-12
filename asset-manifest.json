@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/mintwirdo/static/css/main.a44da8ab.chunk.css",
+    "main.js": "/mintwirdo/static/js/main.52e69d6c.chunk.js",
+    "main.js.map": "/mintwirdo/static/js/main.52e69d6c.chunk.js.map",
+    "runtime-main.js": "/mintwirdo/static/js/runtime-main.f3bccc44.js",
+    "runtime-main.js.map": "/mintwirdo/static/js/runtime-main.f3bccc44.js.map",
+    "static/js/2.105309a2.chunk.js": "/mintwirdo/static/js/2.105309a2.chunk.js",
+    "static/js/2.105309a2.chunk.js.map": "/mintwirdo/static/js/2.105309a2.chunk.js.map",
+    "static/js/3.2d4110dd.chunk.js": "/mintwirdo/static/js/3.2d4110dd.chunk.js",
+    "static/js/3.2d4110dd.chunk.js.map": "/mintwirdo/static/js/3.2d4110dd.chunk.js.map",
+    "index.html": "/mintwirdo/index.html",
+    "static/css/main.a44da8ab.chunk.css.map": "/mintwirdo/static/css/main.a44da8ab.chunk.css.map",
+    "static/js/2.105309a2.chunk.js.LICENSE.txt": "/mintwirdo/static/js/2.105309a2.chunk.js.LICENSE.txt",
+    "static/media/1.f7455a6d.png": "/mintwirdo/static/media/1.f7455a6d.png",
+    "static/media/90.40372dcf.png": "/mintwirdo/static/media/90.40372dcf.png",
+    "static/media/reset.css": "/mintwirdo/static/media/Slackey-Regular.3e823f83.ttf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f3bccc44.js",
+    "static/js/2.105309a2.chunk.js",
+    "static/css/main.a44da8ab.chunk.css",
+    "static/js/main.52e69d6c.chunk.js"
+  ]
+}
