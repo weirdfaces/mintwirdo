@@ -27,7 +27,7 @@
     "web3": "^1.5.1",
     "web3-eth-contract": "^1.5.2"
   },
-  "homepage": "http://weirdfaces.github.io/mint",
+  "homepage": "http://weirdfaces.github.io/weirdomint",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
