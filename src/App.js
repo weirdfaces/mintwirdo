@@ -10,7 +10,7 @@ import i90 from "./assets/images/90.png";
 export const StyledNumberInput = styled.input.attrs((props) => ({
   type: "number",
   min: 1,
-  max: 1, //##NUMBER OF MINT BER TRANSACTION .CHANGE MINT COUNT BOX COLOR LINE 46
+  max: 1, //##done..NUMBER OF MINT BER TRANSACTION .CHANGE MINT COUNT BOX COLOR LINE 46
   defaultValue: props.value,
 }))`
   border-radius: 5px;
@@ -145,7 +145,7 @@ function App() {
   const dispatch = useDispatch();
   const blockchain = useSelector((state) => state.blockchain);
   const data = useSelector((state) => state.data);
-  const [feedback, setFeedback] = useState(" 1 IC NFT = 75 Matic");
+  const [feedback, setFeedback] = useState(" 1 Weirdo NFT = 5 Matic");
   const [claimingNft, setClaimingNft] = useState(false);
   const [mintQuantity, setMintQuantity] = useState(1);
 
@@ -159,10 +159,10 @@ function App() {
       .mint(_amount)
       .send({
         gasLimit: "285000", //#gaslimit
-        to: "0x995353229fEDd3fDbFaA927B26065d714BF1F430", //#chang it to your smart contract addres
+        to: "0x736701275C152A8C5Ff134E9857218EA19c6066E", //#done ..chang it to your smart contract addres
         from: blockchain.account,
         value: blockchain.web3.utils.toWei(
-          (1 * _amount).toString(), //#chang the pric same is in contract
+          (5 * _amount).toString(), //#chang the pric same is in contract
           "ether"
         ),
       })
@@ -205,7 +205,7 @@ function App() {
             <s.TextTitle
               style={{ textAlign: "center", fontSize: 30, fontWeight: "bold" }}
             >
-              {data.totalSupply} / 1110
+              {data.totalSupply} / 2022
               <s.SpacerSmall />
             </s.TextTitle>
           </s.Container>
@@ -215,18 +215,18 @@ function App() {
             ai={"center"}
             // style={{ backgroundColor: "#000000", padding: 1 }} //#backron for the mint boutm
           >
-            {Number(data.totalSupply) == 1110 ? (
+            {Number(data.totalSupply) == 2022 ? (
               <>
                 <s.TextTitle style={{ textAlign: "center" }}>
                   SOLD OUT!
                 </s.TextTitle>
                 <s.SpacerMedium />
                 <s.TextDescription style={{ textAlign: "center" }}>
-                  You can still trade Weird|faces NFTs at{" "}
+                  You can still trade Weirdo NFTs at{" "}
                   <a
-                    //# LINE 255&261 CHANGE NAME
+                    //# done LINE 218&225 CHANGE NAME
                     target={""}
-                    href={"https://opensea.io/collection/the-bee-collaborative"}
+                    href={"https://opensea.io/collection/"}
                   >
                     The Weird | Faces
                   </a>
@@ -291,7 +291,7 @@ function App() {
           <s.TextDescription style={{ textAlign: "center", fontSize: 16 }}>
             {" "}
           </s.TextDescription>
-          <button
+          {/* <button
             onClick={() =>
               navigator.clipboard.writeText(
                 "https://etherscan.io/token/0x688db0131c807a3495c23bc1b25726a76ea31f49" //#but yor cotract  adres
@@ -299,7 +299,7 @@ function App() {
             }
           >
             Click to Copy ##change the name Address | Buy Straight from Contract
-          </button>
+          </button> */}
         </s.TextDescription>
         <s.SpacerSmall />
       </s.Container>
